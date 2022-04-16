@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/learn/2022Spring/network/server.cpp
+cstdio
+-
+utils.h
+E:/learn/2022Spring/network/utils.h
+errno.h
+E:/learn/2022Spring/network/errno.h
+
+E:/learn/2022Spring/network/utils.h
+winsock.h
+-
+stdio.h
+-
+
