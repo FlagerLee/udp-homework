@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/server.dir/utils.cpp.obj"
-  "CMakeFiles/server.dir/server.cpp.obj"
+  "CMakeFiles/server.dir/server.cpp.o"
+  "CMakeFiles/server.dir/utils.cpp.o"
+  "server"
   "server.pdb"
-  "server.exe"
-  "server.exe.manifest"
-  "server.lib"
 )
 
 # Per-language clean rules from dependency scanning.

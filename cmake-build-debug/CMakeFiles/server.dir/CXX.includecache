@@ -6,16 +6,24 @@
 
 #IncludeRegexTransform: 
 
-E:/learn/2022Spring/network/server.cpp
+/home/flagerlee/Desktop/udp-homework/server.cpp
 cstdio
 -
 utils.h
-E:/learn/2022Spring/network/utils.h
-errno.h
-E:/learn/2022Spring/network/errno.h
+/home/flagerlee/Desktop/udp-homework/utils.h
 
-E:/learn/2022Spring/network/utils.h
+/home/flagerlee/Desktop/udp-homework/utils.h
 winsock.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+string.h
 -
 stdio.h
 -

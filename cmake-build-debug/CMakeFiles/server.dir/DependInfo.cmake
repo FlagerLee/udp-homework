@@ -1,16 +1,24 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/learn/2022Spring/network/server.cpp" "E:/learn/2022Spring/network/cmake-build-debug/CMakeFiles/server.dir/server.cpp.obj"
-  "E:/learn/2022Spring/network/utils.cpp" "E:/learn/2022Spring/network/cmake-build-debug/CMakeFiles/server.dir/utils.cpp.obj"
+  "/home/flagerlee/Desktop/udp-homework/server.cpp" "/home/flagerlee/Desktop/udp-homework/cmake-build-debug/CMakeFiles/server.dir/server.cpp.o"
+  "/home/flagerlee/Desktop/udp-homework/utils.cpp" "/home/flagerlee/Desktop/udp-homework/cmake-build-debug/CMakeFiles/server.dir/utils.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

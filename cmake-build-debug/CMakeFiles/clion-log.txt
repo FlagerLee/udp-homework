@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\learn\2022Spring\network
+/home/flagerlee/Desktop/CLion-2021.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/flagerlee/Desktop/udp-homework
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/learn/2022Spring/network/cmake-build-debug
+-- Build files have been written to: /home/flagerlee/Desktop/udp-homework/cmake-build-debug

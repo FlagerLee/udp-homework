@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/network.iml" filepath="$PROJECT_DIR$/.idea/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/udp-homework.iml" filepath="$PROJECT_DIR$/.idea/udp-homework.iml" />
     </modules>
   </component>
 </project>
