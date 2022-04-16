@@ -37,6 +37,9 @@ bool check_echo(const char* buf, char* payload, char* identifier, const char act
     identifier[2] = buf[6];
     identifier[3] = buf[7];
     payload_len = (uint)(unsigned char)buf[9] * 256 + (uint)(unsigned char)buf[10];
+    if(payload_len > 65489) {
+        return false;
+    }
     for(int i = 0; i < payload_len; i ++) payload[i] = buf[i + 11];
     payload[payload_len] = '\0';
     return true;
